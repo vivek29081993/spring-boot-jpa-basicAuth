@@ -12,24 +12,24 @@ A simple API allowing users to login and manage contacts. All contact management
 
 "/contacts" - GET
 
-*List All Contacts (Authenticated)
+* List All Contacts (Authenticated)
 
 "/contacts"  - POST
 
-*Create Contact (Authenticated)
+* Create Contact (Authenticated)
 
 "/contacts/{contacts_id}" - POST
 
-*Updates the name associated with a Contact.
+* Updates the name associated with a Contact.
 
 "/contacts/{contacts_id}" - DELETE
 
-*Deletes a Contact (Authenticated)
+* Deletes a Contact (Authenticated)
 
 "/contacts/entries" - POST
 
-*Adds a new phone number to a Contact. (Authenticated)
+* Adds a new phone number to a Contact. (Authenticated)
 
 "/user" - POST
 
-*Allows a user to login returning a session token that should be sent in all above  authenticated calls.
+* Allows a user to login returning a session token that should be sent in all above  authenticated calls.
